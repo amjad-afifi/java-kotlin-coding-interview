@@ -12,11 +12,11 @@ public class Main {
 
     private static void startGame(){
         for(int i = 0; i<100; i++) {
-            gameUtils.Hand player1Hand = getRandomHand(gameUtils.Hand.class);
+            Hand player1Hand = getRandomHand(Hand.class);
 
-            if(player1Hand.equals(gameUtils.Hand.ROCK)){
+            if(player1Hand.equals(Hand.ROCK)){
                 draw++;
-            }else if (player1Hand.equals(gameUtils.Hand.PAPER)){
+            }else if (player1Hand.equals(Hand.PAPER)){
                 playerA++;
             }else{
                 playerB++;
