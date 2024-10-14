@@ -2,6 +2,12 @@ package org.cocharge.Utils;
 
 import java.util.Random;
 
+/**
+ * The {@code gameUtils} class is the util class that provides helper methods
+ * for the Rock, Paper, Scissors game. It contains 2 methods, getRandomHands, which
+ * selects randomly one out of Hand enum class value, and printResults, which given the
+ * results of each player, prints the game results.
+ */
 public class gameUtils {
 
     public static <T extends Enum<?>> T getRandomHand(Class<T> enumClass) {
